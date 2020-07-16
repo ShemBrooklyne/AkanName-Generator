@@ -149,17 +149,21 @@ nav>ul>li>a:hover {
     }
     .row {
         width: 80%;
-        height: 350px;
+        height: 150px;
         background-color: gray;
         text-align: center;
         margin-top: 10px;
+        overflow: auto;
     }
     .generator {
         width: 80%;
-        height: 350px;
+        height: 150px;
         background-color: gray;
+        background-image: url("images/Ghananianboys.jpg");
         text-align: center;
+        font-size: 16px;
         margin-top: 10px;
+        overflow: auto;
     }
   } 
 h2 {
