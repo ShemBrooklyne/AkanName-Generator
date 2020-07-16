@@ -143,6 +143,9 @@ nav>ul>li>a:hover {
 }
 
 @media screen and (max-width: 600px) and (min-width: 200px) {
+    .body {
+        min-height: 100vh;
+    }
     
     .trial, .body {
         display: flex;
@@ -150,6 +153,7 @@ nav>ul>li>a:hover {
         justify-content: center;
         width: 100%;
         background-image: url("images/MyFavLanding.jpg");
+        background-size: cover;
     }
     .row {
         width: 80%;
