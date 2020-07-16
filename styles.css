@@ -143,7 +143,7 @@ nav>ul>li>a:hover {
 @media screen and (max-width: 600px) and (min-width: 200px) {
     .trial {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         /* justify-content: center; */
         width: 100%;
     }
@@ -153,17 +153,13 @@ nav>ul>li>a:hover {
         background-color: gray;
         text-align: center;
         margin-top: 10px;
-        overflow: auto;
     }
     .generator {
         width: 80%;
         height: 150px;
         background-color: gray;
-        background-image: url("images/Ghananianboys.jpg");
         text-align: center;
-        font-size: 16px;
         margin-top: 10px;
-        overflow: auto;
     }
   } 
 h2 {
