@@ -139,17 +139,15 @@ nav>ul>li>a:hover {
     background-image: url("images/Ghananianboys.jpg");
     background-size: cover;
     justify-items: right;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 @media screen and (max-width: 600px) and (min-width: 200px) {
-    body {
-        background-image: url("images/MyFavLanding.jpg");
-    }
-    .trial {
+    
+    .trial, .body {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
         width: 100%;
         background-image: url("images/MyFavLanding.jpg");
     }
