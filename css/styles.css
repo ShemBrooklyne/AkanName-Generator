@@ -9,6 +9,7 @@ html {
 h1 {
     text-align: center;
     font-size: 46px;
+    font-family: 'Ribeye', cursive;
 }
 nav {
     max-width: 960px;
@@ -48,7 +49,14 @@ nav>ul>li>a:hover {
     height: 120px;
     width: auto;
 } */
+.mouse_click {
+    padding-top: 27rem;
+    position: absolute;
+}
 
+.inst {
+    color: black;
+}
 
 .content {
     display: flex;
@@ -63,6 +71,7 @@ nav>ul>li>a:hover {
 .intro {
     width: 50%;
     height: 350px;
+    overflow: hidden;
     background-color: gray;
     background-image: url(/images/MyFavLanding.jpg);
     background-size: cover;
@@ -88,14 +97,16 @@ nav>ul>li>a:hover {
 } */
 .trial {
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    flex-direction: row;
+    /* justify-content: start; */
+    justify-content: space-around;
     /* align-items: center; */
     width: 100%;
     background-color: gray;
-    background-image: url(/images/MagicPageBelieve.jpg);
+    background-image: url(/images/Ghananian\ boys.jpg);
     background-size: cover;
     padding: 20px;
+    font-size: 25px;
 }
 .row {
     width: 35%;
@@ -103,4 +114,25 @@ nav>ul>li>a:hover {
     background-color: gray;
     background-image: url(/images/MyFavLanding.jpg);
     background-size: cover;
+}
+.generator {
+    width: 45%;
+    height: 620px;
+    /* background-color: wheat; */
+    background-image: url(/images/Ghananian\ boys.jpg); 
+    background-size: cover;
+    justify-items: right;
+}
+h2 {
+    text-align: center;
+}
+ol>li {
+    display: grid;
+}
+button, input {
+    color: white;
+    background-color: blue;
+}
+label, h3 {
+    color: white;
 }
