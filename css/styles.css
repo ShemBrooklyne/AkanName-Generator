@@ -133,6 +133,6 @@ button, input {
     color: white;
     background-color: blue;
 }
-label, h3 {
+label, h3, .welcome {
     color: white;
 }
