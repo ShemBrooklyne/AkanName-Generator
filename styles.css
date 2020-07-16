@@ -78,6 +78,22 @@ nav>ul>li>a:hover {
     text-align: center;
 }
 
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .intro {
+        width: 80%;
+        height: 350px;
+        background-color: gray;
+        text-align: center;
+        margin-top: 10px;
+    }
+  } 
+
 /* .container {
     background-color: gray;
     background-image: url(/images/MagicPageBelieve.jpg);
@@ -123,6 +139,29 @@ nav>ul>li>a:hover {
     background-size: cover;
     justify-items: right;
 }
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    .trial {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        width: 100%;
+    }
+    .row {
+        width: 80%;
+        height: 350px;
+        background-color: gray;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .generator {
+        width: 80%;
+        height: 350px;
+        background-color: gray;
+        text-align: center;
+        margin-top: 10px;
+    }
+  } 
 h2 {
     text-align: center;
 }
