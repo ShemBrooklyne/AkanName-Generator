@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Generator</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="mailto:shemnyatti@gmail.com">Contact Me</a></li>
             </ul>
         </nav>
     </div>
@@ -38,7 +38,7 @@
             </p> 
         </div>
         <p class="mouse_click">
-            <img href="trial" src="/images/mouse_click.png" alt="Drop down click">
+            <img src="/images/mouse_click.png" alt="Drop down click">
         </p>
     </div> 
     <br><br><br><br><br><br><br>
@@ -50,11 +50,10 @@
             <h2>Get to Know Your Ugandan Name</h2>
             <h3 class="inst">How it Works</h3>
                 <ol>
-                    <li>1</li>                
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
+                    <li>-Start by inputing date of birth.</li>                
+                    <li>-Enter the month you were born</li>
+                    <li>-Type in th exact year born.</li>
+                    <li>-Finally choose your gender.</li>
                 </ol>
             <em>Have fun!</em>
             </p>
@@ -66,17 +65,17 @@
                 <form action="">
                     <fieldset>
                         <label for="D.O.B">Enter Date of Birth:</label>
-                        <input type="text" placeholder="DD"  maxlength="2" required>
+                        <input type="number" placeholder="DD"  maxlength="2" required>
                         <div>
                             
                         </div><br><br>
                         <label for="M.O.B">Enter Month of Birth:</label>
-                        <input type="text/number" placeholder="MM" maxlength="2/8" required>
+                        <input type="number" placeholder="MM" maxlength="2/8" required>
                         <div>
 
                         </div><br><br>
                         <label for="Y.O.B">Enter Year of Birth:</label>
-                        <input type="text" placeholder="YY" maxlength="4" required>
+                        <input type="number" placeholder="YY" maxlength="4" aria-valuemax="4" required>
 
                         <div>
                             <h3>Select gender</h3>
@@ -89,8 +88,8 @@
 
                     </fieldset>
                     <div class="submit">
-                        <button type="button">Submit</button>
-                        <button type="button">Reset</button>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="reset">
                     </div>
                 </form>
             </div>
