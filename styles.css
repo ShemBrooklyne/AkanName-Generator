@@ -143,6 +143,9 @@ nav>ul>li>a:hover {
 }
 
 @media screen and (max-width: 600px) and (min-width: 200px) {
+    body {
+        background-image: url("images/MyFavLanding.jpg");
+    }
     .trial {
         display: flex;
         flex-direction: column;
@@ -152,14 +155,14 @@ nav>ul>li>a:hover {
     }
     .row {
         width: 80%;
-        height: 150px;
+        height: 350px;
         background-color: gray;
         text-align: center;
         margin-top: 10px;
     }
     .generator {
         width: 80%;
-        height: 150px;
+        height: 350px;
         background-color: gray;
         text-align: center;
         margin-top: 10px;
