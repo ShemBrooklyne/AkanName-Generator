@@ -1,6 +1,6 @@
 html {
     background-color: gray;
-    background-image: url(images/MyFavLanding.jpg);
+    background-image: url("images/MyFavLanding.jpg");
     background-size: cover;
     height: 100vh;
     overflow-x: hidden;
@@ -73,7 +73,7 @@ nav>ul>li>a:hover {
     height: 350px;
     overflow: hidden;
     background-color: gray;
-    background-image: url(images/MyFavLanding.jpg);
+    background-image: url("images/MyFavLanding.jpg");
     background-size: cover;
     text-align: center;
 }
@@ -103,7 +103,7 @@ nav>ul>li>a:hover {
     /* align-items: center; */
     width: 100%;
     background-color: gray;
-    background-image: url(images/Ghananian\ boys.jpg);
+    background-image: url("images/Ghananianboys.jpg");
     background-size: cover;
     padding: 20px;
     font-size: 25px;
@@ -112,14 +112,14 @@ nav>ul>li>a:hover {
     width: 35%;
     height: 620px;
     background-color: gray;
-    background-image: url(images/MyFavLanding.jpg);
+    background-image: url("images/MyFavLanding.jpg");
     background-size: cover;
 }
 .generator {
     width: 45%;
     height: 620px;
     /* background-color: wheat; */
-    background-image: url(images/Ghananian\ boys.jpg);
+    background-image: url("images/Ghananianboys.jpg");
     background-size: cover;
     justify-items: right;
 }
