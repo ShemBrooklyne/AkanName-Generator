@@ -71,7 +71,7 @@ nav>ul>li>a:hover {
 .intro {
     width: 50%;
     height: 350px;
-    overflow: hidden;
+    overflow: auto;
     background-color: gray;
     background-image: url("images/MyFavLanding.jpg");
     background-size: cover;
@@ -130,6 +130,7 @@ nav>ul>li>a:hover {
     background-color: gray;
     background-image: url("images/MyFavLanding.jpg");
     background-size: cover;
+    overflow: auto;
 }
 .generator {
     width: 45%;
@@ -138,6 +139,7 @@ nav>ul>li>a:hover {
     background-image: url("images/Ghananianboys.jpg");
     background-size: cover;
     justify-items: right;
+    overflow: auto;
 }
 
 @media screen and (max-width: 600px) and (min-width: 200px) {
@@ -146,6 +148,7 @@ nav>ul>li>a:hover {
         flex-direction: column;
         /* justify-content: center; */
         width: 100%;
+        background-image: url("images/MyFavLanding.jpg");
     }
     .row {
         width: 80%;
@@ -160,6 +163,8 @@ nav>ul>li>a:hover {
         background-color: gray;
         text-align: center;
         margin-top: 10px;
+        background-image: url("images/MyFavLanding.jpg");
+
     }
   } 
 h2 {
