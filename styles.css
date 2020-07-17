@@ -70,8 +70,8 @@ nav>ul>li>a:hover {
 
 .intro {
     width: 50%;
-    height: 350px;
-    overflow: auto;
+    height: 380px;
+    /* overflow: auto; */
     background-color: gray;
     background-image: url("images/MyFavLanding.jpg");
     background-size: cover;
