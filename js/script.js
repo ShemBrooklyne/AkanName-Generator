@@ -45,6 +45,10 @@ function output() {
     if (mm < 1 || mm > 12 || mm === 2 && dd > 29) {
         alert("Invalid Month!");
     }
+    else if (dd < 1 || dd > 31) {
+        alert("Ivalid dates");
+    }
+
 
 
     
