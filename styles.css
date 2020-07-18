@@ -179,7 +179,7 @@ h2 {
 ol>li {
     display: grid;
 }
-button, input {
+button, input, #generate {
     color: white;
     background-color: blue;
 }

@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="js/script.js">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
     <link rel="icon" href="images/myWeb.ico" type="image/x-icon">
     <h1>Akan-Name Generator.</h1>
@@ -18,91 +20,102 @@ integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0
 </head>
 
 <body>
- <div class="body">
-    <div class="nav">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Generator</a></li>
-                <li><a href="mailto:shemnyatti@gmail.com">Contact Me</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="content">
-        <div class="intro">
-            <p>
-                Hello! Welcome to my page where I believe magic can be written under code. <br>
-                Mr.Shem Mwangi a developer from Ukraine developed this page as a
-                Akan Name Generator. <br>
-                <br>
-                Simply, Akan names are derived from Ghanian (🇬🇭) culture. <br>
-                Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in
-                the week they were born. <br>
-                <br>
-                Believe me when I say this is magic 💡.
-            </p> 
+    <div class="body">
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Generator</a></li>
+                    <li><a href="mailto:shemnyatti@gmail.com">Contact Me</a></li>
+                </ul>
+            </nav>
         </div>
-        <p class="mouse_click">
-            <img src="images/mouse_click.png" alt="Drop down click">
-        </p>
-    </div> 
-    <br><br><br><br><br><br><br>
-    <div class="trial">
-        <div class="row">
-            <h1>Akan-Generator</h1>
-            <p> A Ghanaian name generator that works only on the basis of your birth dates information. <br>
-                Is'nt that great.
-            <h2>Get to Know Your Ghanian Name</h2>
-            <h3 class="inst">How it Works</h3>
+        <div class="content">
+            <div class="intro">
+                <p>
+                    Hello! Welcome to my page where I believe magic can be written under code. <br>
+                    Mr.Shem Mwangi a developer from Ukraine developed this page as a
+                    Akan Name Generator. <br>
+                    <br>
+                    Simply, Akan names are derived from Ghanian (🇬🇭) culture. <br>
+                    Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the
+                    day in
+                    the week they were born. <br>
+                    <br>
+                    Believe me when I say this is magic 💡.
+                </p>
+            </div>
+            <p class="mouse_click">
+                <img src="images/mouse_click.png" alt="Drop down click">
+            </p>
+        </div>
+        <br><br><br><br><br><br><br>
+        <div class="trial">
+            <div class="row">
+                <h1>Akan-Generator</h1>
+                <p> A Ghanaian name generator that works only on the basis of your birth dates information. <br>
+                    Is'nt that great.
+                <h2>Get to Know Your Ghanian Name</h2>
+                <h3 class="inst">How it Works</h3>
                 <ol>
-                    <li>-Start by inputing date of birth.</li>                
+                    <li>-Start by inputing date of birth.</li>
                     <li>-Enter the month you were born</li>
                     <li>-Type in th exact year born.</li>
                     <li>-Finally choose your gender.</li>
                 </ol>
-            <em>Have fun!</em>
-            </p>
-        </div>
-        <div class="generator">
-            <h2 class="welcome"><strong>Magic Well</strong></h2>
-            <p class="welcome">Ready to start? Fill in the fields first.</p>
-            <div id="form">
-                <form action="">
-                    <fieldset>
-                        <label for="D.O.B">Enter Date of Birth:</label>
-                        <input type="text" placeholder="DD  eg. 9"  maxlength="2" class="DD" required>
-                        <div>
-                            
-                        </div><br><br>
-                        <label for="M.O.B">Enter Month of Birth:</label>
-                        <input type="text" placeholder="MM  eg. 4" maxlength="2" class="MM" required>
+                <em>Have fun!</em>
+                </p>
+            </div>
+            <div class="generator">
+                <h2 class="welcome"><strong>Magic Well</strong></h2>
+                <p class="welcome">Ready to start? Fill in the fields first.</p>
+                <div id="form">
+                    <form action="">
+                        <fieldset>
+                            <label for="">Enter Century of Birth:</label>
+                        <input type="number" placeholder="eg. 19 or 20" id="century" required min="0">
                         <div>
 
                         </div><br><br>
-                        <label for="Y.O.B">Enter Year of Birth:</label>
-                        <input type="text" placeholder="YY  eg. 2000" maxlength="4" class="YY" required>
+                        <label for="">Enter Date of Birth:</label>
+                        <input type="number" placeholder="eg. 1-31" id="date" required min="0">
+                        <div>
+
+                        </div><br><br>
+                        <label for="">Enter Month of Birth:</label>
+                        <input type="number" placeholder="eg. 1-12" id="month" required min="0">
+                        <div>
+
+                        </div><br><br>
+                        
+                        <label for="">Enter Year of Birth:</label>
+                        <input type="number" placeholder="eg. 2000" id="year" required min="0">
 
                         <div>
                             <h3>Select gender</h3>
                         </div>
-                        <label for="Male">Male:</label>
-                        <input type="radio" name="gender" id="male" maxlength="0" required >
+                        <input type="radio" class="gender" value="male" id="gender" name="genders" required>Male:
+                        <input type="radio" class="genders" value="female" id="gender" name="genders" required>Female:
 
-                        <label for="Female">Female:</label>
-                        <input type="radio" name="gender" id="female" maxlength="0" required>
+                        </fieldset>
+                        <div class="submit">
+                            <!-- submit && reset buttons -->
+                        <a href="#generate"><button type="button" name="button" class="button"
+                            onclick="output();">Generate</button></a>
+                            <button type="reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- outputs result after submit -->
+                <div id="generate">
+                    Generator:
+                </div>
 
-                    </fieldset>
-                    <div class="submit">
-                        <!-- <input type="radio" name="gender" id="gender" value="male" checked> male <br>
-                        <input type="radio" name="gender" id="" value="female"> female <br> -->
-                        <input type="submit" value="submit" onclick="output()">
-                    </div>
-                    <p class="output">Generator:</p>
                 </form>
             </div>
         </div>
     </div>
- </div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 
