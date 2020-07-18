@@ -16,17 +16,17 @@ AkanName-Generator is a user interactive web page that generates Akan names (Gha
 ## How it Works
 Once you click on the link, this is what you'll expect to see.
 
-<img src="images/Officiallandpg.png" alt="The landing page" >
+<img src="images/Officiallandpg.png" height="430" width="720" alt="The landing page" >
 
 - This being the main landing page.
 
 The next page contains the Akan-Names Generator section.
 
-<img src="images/Genpg.png" alt="Generating page">
+<img src="images/Genpg.png" height="430" width="720" alt="Generating page">
 
 - The input section of the generator.
 
-<img src="images/inputgen.png" alt="Input section">
+<img src="images/Gen.png" height="240" width="320" alt="Input section">
 
 ## Setup Instruction
 
