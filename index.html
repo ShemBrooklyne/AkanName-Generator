@@ -25,7 +25,7 @@
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Generator</a></li>
+                    <li><a href="#form">Generator</a></li>
                     <li><a href="mailto:shemnyatti@gmail.com">Contact Me</a></li>
                 </ul>
             </nav>
@@ -73,23 +73,23 @@
                     <form action="">
                         <fieldset>
                             <label for="">Enter Century of Birth:</label>
-                        <input type="number" placeholder="eg. 19 or 20" id="century" required min="0">
+                        <input type="number" placeholder="eg. 19 or 20" id="century" required  maxlength="2">
                         <div>
 
                         </div><br><br>
                         <label for="">Enter Date of Birth:</label>
-                        <input type="number" placeholder="eg. 1-31" id="date" required min="0">
+                        <input type="number" placeholder="eg. 1-31" id="date" required  maxlength="2">
                         <div>
 
                         </div><br><br>
                         <label for="">Enter Month of Birth:</label>
-                        <input type="number" placeholder="eg. 1-12" id="month" required min="0">
+                        <input type="number" placeholder="eg. 1-12" id="month" required maxlength="2">
                         <div>
 
                         </div><br><br>
                         
                         <label for="">Enter Year of Birth:</label>
-                        <input type="number" placeholder="eg. 2000" id="year" required min="0">
+                        <input type="number" placeholder="eg. 2000" id="year" required  maxlength="4" >
 
                         <div>
                             <h3>Select gender</h3>
@@ -108,7 +108,7 @@
                 </div>
                 <!-- outputs result after submit -->
                 <div id="generate">
-                    Generator:
+                    <button id="generate" type=""></button>Generator:
                 </div>
 
                 </form>
